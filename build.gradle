@@ -1,6 +1,8 @@
 plugins {
     id 'java'
+    id 'application'
 }
+mainClassName = 'webserver.WebServer'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
